@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+/**@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+**/
 :root {
     --primary-color: #3E788A/**#ff5e00**/;
     --off-white:#f3f4f6;
@@ -67,10 +67,10 @@ hr {
     font-size: medium;
 }
 
-.navigation li {
+/**.navigation li {
     color: white;
 
-}
+}**/
 
 .navigation .nav-pills {
     text-align: right;
@@ -101,7 +101,7 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--drak-gry);
 }
 
 /** section **/
