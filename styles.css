@@ -1,5 +1,5 @@
-/**@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-**/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 :root {
     --primary-color: #3E788A/**#ff5e00**/;
     --off-white:#f3f4f6;
@@ -16,6 +16,10 @@ hr {
     margin: 2.5rem 0rem;
 }
 
+/** spaces **/
+.margin-md {
+    margin: 2rem ;
+}
 .container {
     padding: 0rem 1rem;
 }
@@ -89,6 +93,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -133,6 +138,11 @@ hr {
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
