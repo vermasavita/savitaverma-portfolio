@@ -24,12 +24,15 @@ hr {
 }
 .container {
     padding: 0rem 1rem;
+    text-align: center;
+
 }
 
 .container-center {
     max-width: 900px;
     width: 100%;
     margin: auto;
+    padding-bottom: 2rem;
 
 }
 
@@ -45,7 +48,7 @@ hr {
     border-radius: 2rem;
     color: white;
     max-width: 140px;
-    padding: 0.6rem 1.2rem;
+    padding: 0.5rem 2rem;
 }
 
 .link-secondary {
@@ -54,7 +57,7 @@ hr {
     border: 1px solid var(--primary-color);
     max-width: 140px;
     margin: 1rem;
-    padding: 0.6rem 1.2rem;
+    padding: 0.5rem 2rem;
 }
 
 .list-non-bullet {
@@ -148,10 +151,10 @@ hr {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     color: white;
     text-align: center;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 0rem;
 
 }
 
