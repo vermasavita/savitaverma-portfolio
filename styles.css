@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
     --primary-color: #3E788A/**#ff5e00**/;
@@ -8,12 +8,14 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: 0px auto;
+    max-width: 100%;
+    width: 100%;
 
 }
 
 hr {
-    margin: 2.5rem 0rem;
+    margin: 2rem 0rem;
 }
 
 /** spaces **/
@@ -25,31 +27,39 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 
 }
 
 /** Links **/
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
+    max-width: 140px;
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
 }
 
 .list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-item-inline {
@@ -62,13 +72,13 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1.1rem;
-    border-bottom-left-radius: 0rem;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: medium;
+    
 }
 
 /**.navigation li {
@@ -78,6 +88,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: right;
+    margin: 0.6rem 1rem;
 }
 
 .navigation .link {
@@ -94,6 +105,7 @@ hr {
 .hero {
     padding: 2rem;
     padding-top: 5rem;
+    text-align: center;
 }
 
 .hero .hero-img {
@@ -107,19 +119,24 @@ hr {
     text-align: center;
     padding-top: 1rem;
     color: var(--drak-gry);
+    text-align: center;
+
 }
+
 
 /** section **/
 
 .section{
     padding: 2rem;
     padding-inline-start: 0px;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 
 
 .section h1 {
-    text-align: center;
-    padding: 2rem;
+    text-align: center; /**padding: 2rem;**/
 
 }
 
