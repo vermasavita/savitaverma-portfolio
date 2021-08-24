@@ -24,7 +24,6 @@ hr {
 }
 .container {
     padding: 0rem 1rem;
-    text-align: center;
 
 }
 
@@ -32,7 +31,8 @@ hr {
     max-width: 900px;
     width: 100%;
     margin: auto;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
+
 
 }
 
@@ -112,7 +112,7 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 200px;
     display: block;
     margin: auto;
 
