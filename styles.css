@@ -114,20 +114,27 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 200px;
+    max-width: 100px;
     display: block;
     margin: auto;
+    
 
 }
 
-.hero .hero-heading {
+.hero{
     text-align: center;
     padding-top: 1rem;
     color: var(--drak-gry);
-    text-align: center;
+    
 
 }
-
+.hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    text-decoration-line:underline;
+    word-wrap: normal;
+    color: black;
+}
 
 /** section **/
 
