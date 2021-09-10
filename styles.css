@@ -50,7 +50,7 @@ hr {
     border-radius: 2rem;
     color: white;
     max-width: 140px;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.5rem;
 }
 
 .link-secondary {
@@ -59,7 +59,7 @@ hr {
     border: 1px solid var(--primary-color);
     max-width: 140px;
     margin: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 0.5rem;
 }
 
 .list-non-bullet {
