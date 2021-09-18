@@ -26,7 +26,9 @@ hr {
     padding: 0rem 1rem;
 
 }
-
+nav{
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+}
 .container-center {
     max-width: 900px;
     width: 100%;
